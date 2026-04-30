@@ -1,0 +1,7 @@
+a=int(input("enter any Num 1"))
+b=int(input("enetr any Num 2"))
+while(b!=0):
+    rem=a%b
+    a=b
+    b=rem
+    print("GCD:",a)

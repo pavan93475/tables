@@ -1,0 +1,11 @@
+class India:
+    def show_info(seif):
+        print("Delhi")
+class Telangana (India):
+    def chiefminister (self):
+        print("revanth reddy")
+        
+a=India()
+a.show_info()
+b=Telangana()
+b.chiefminister()

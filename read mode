@@ -1,0 +1,8 @@
+a=open("ramya.txt",'r')
+l=[]
+res=a.readlines()
+while res:
+    l.append(res)
+a.close()
+for i in l:
+  print (i)
